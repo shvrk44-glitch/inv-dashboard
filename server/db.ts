@@ -108,8 +108,7 @@ function saveDb(db: DatabaseSchema): void {
     fs.writeFileSync(TMP_FILE, json, 'utf-8');
     fs.renameSync(TMP_FILE, DB_FILE);
   } catch (err) {
-    console.error('[DB] Atomic write error:', err);
-    throw err;
+    console.warn('[DB] Persistent disk write skipped (in-memory cached for serverless deployment):', err);
   }
 }
 

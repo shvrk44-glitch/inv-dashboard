@@ -161,11 +161,11 @@ async function dispatchWebhook(
   }
 }
 
-async function startServer() {
-  const app = express();
-  const PORT = 3000;
+export const app = express();
+app.use(express.json());
 
-  app.use(express.json());
+async function startServer() {
+  const PORT = 3000;
 
   // -------------------------------------------------------------
   // API ROUTES
@@ -640,7 +640,7 @@ async function startServer() {
       appType: "spa",
     });
     app.use(vite.middlewares);
-  } else {
+  } else if (!process.env.VERCEL) {
     const distPath = path.join(process.cwd(), "dist");
     app.use(express.static(distPath));
     app.get("*", (_req, res) => {
@@ -648,9 +648,15 @@ async function startServer() {
     });
   }
 
-  app.listen(PORT, "0.0.0.0", () => {
-    console.log(`[Inventory Hub] Production server running on http://0.0.0.0:${PORT}`);
-  });
+  if (!process.env.VERCEL) {
+    app.listen(PORT, "0.0.0.0", () => {
+      console.log(`[Inventory Hub] Production server running on http://0.0.0.0:${PORT}`);
+    });
+  }
 }
 
-startServer();
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+export default app;
