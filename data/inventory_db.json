@@ -1,0 +1,611 @@
+{
+  "items": [
+    {
+      "id": "item-1",
+      "sku": "SKU-ELC-8821",
+      "name": "STM32 Microcontroller Core Boards",
+      "category": "Electronics",
+      "warehouse": "Main Distribution Hub A",
+      "quantity": 10,
+      "minThreshold": 35,
+      "targetStock": 120,
+      "unitCost": 18.5,
+      "unitPrice": 38,
+      "supplier": {
+        "name": "Apex Semiconductor Direct",
+        "email": "orders@apexsemicon.com",
+        "phone": "+1 (555) 234-8901",
+        "leadTimeDays": 5
+      },
+      "lastRestocked": "2026-08-14",
+      "isEssential": true,
+      "status": "critical",
+      "notes": "Critical component for smart sensor product line."
+    },
+    {
+      "id": "item-2",
+      "sku": "SKU-PKG-4010",
+      "name": "Reinforced Corrugated Shipping Boxes (14x10x6)",
+      "category": "Packaging",
+      "warehouse": "Depot Logistics B",
+      "quantity": 48,
+      "minThreshold": 150,
+      "targetStock": 600,
+      "unitCost": 1.45,
+      "unitPrice": 3.2,
+      "supplier": {
+        "name": "EcoPack Global Supply",
+        "email": "fulfillment@ecopackglobal.com",
+        "phone": "+1 (555) 872-3341",
+        "leadTimeDays": 3
+      },
+      "lastRestocked": "2026-08-20",
+      "isEssential": true,
+      "status": "critical",
+      "notes": "Primary outbound shipping packaging. Depleting fast."
+    },
+    {
+      "id": "item-3",
+      "sku": "SKU-HDW-9022",
+      "name": "M4 Anodized Aluminum Standoff Screws (Pack of 100)",
+      "category": "Hardware",
+      "warehouse": "Main Distribution Hub A",
+      "quantity": 28,
+      "minThreshold": 40,
+      "targetStock": 150,
+      "unitCost": 6.2,
+      "unitPrice": 14.5,
+      "supplier": {
+        "name": "Precision Fasteners Ltd",
+        "email": "sales@precisionfasteners.net",
+        "phone": "+1 (555) 901-4478",
+        "leadTimeDays": 4
+      },
+      "lastRestocked": "2026-08-28",
+      "isEssential": true,
+      "status": "low",
+      "notes": "Used across chassis assemblies."
+    },
+    {
+      "id": "item-4",
+      "sku": "SKU-BAT-3310",
+      "name": "High-Drain 3.7V Lithium-Polymer Cells (2500mAh)",
+      "category": "Electronics",
+      "warehouse": "Main Distribution Hub A",
+      "quantity": 19,
+      "minThreshold": 50,
+      "targetStock": 200,
+      "unitCost": 8.9,
+      "unitPrice": 19.99,
+      "supplier": {
+        "name": "VoltStream Energy Corp",
+        "email": "b2b@voltstreamenergy.com",
+        "phone": "+1 (555) 431-7782",
+        "leadTimeDays": 7
+      },
+      "lastRestocked": "2026-08-11",
+      "isEssential": true,
+      "status": "critical",
+      "notes": "Hazardous material certified carrier required."
+    },
+    {
+      "id": "item-5",
+      "sku": "SKU-MED-1102",
+      "name": "Nitrile Examination Gloves (Heavy Duty, Size L)",
+      "category": "Safety & Hygiene",
+      "warehouse": "Cleanroom Storage C",
+      "quantity": 85,
+      "minThreshold": 80,
+      "targetStock": 300,
+      "unitCost": 11.2,
+      "unitPrice": 22.5,
+      "supplier": {
+        "name": "Guardian Medical Supplies",
+        "email": "dispatch@guardianmedsupply.com",
+        "phone": "+1 (555) 662-1983",
+        "leadTimeDays": 2
+      },
+      "lastRestocked": "2026-08-29",
+      "isEssential": false,
+      "status": "healthy",
+      "notes": "Approaching reorder threshold."
+    },
+    {
+      "id": "item-6",
+      "sku": "SKU-CAB-5519",
+      "name": "Shielded Cat6A Patch Cables 3m (Braided Blue)",
+      "category": "Cabling & Networking",
+      "warehouse": "Main Distribution Hub A",
+      "quantity": 15,
+      "minThreshold": 60,
+      "targetStock": 250,
+      "unitCost": 3.8,
+      "unitPrice": 9.5,
+      "supplier": {
+        "name": "OmniLink Connectivity",
+        "email": "orders@omnilinkwires.com",
+        "phone": "+1 (555) 781-9920",
+        "leadTimeDays": 4
+      },
+      "lastRestocked": "2026-09-02",
+      "isEssential": false,
+      "status": "critical",
+      "notes": "Adequate stock levels."
+    },
+    {
+      "id": "item-7",
+      "sku": "SKU-SNS-7104",
+      "name": "Industrial Temperature & Humidity Probe I2C",
+      "category": "Electronics",
+      "warehouse": "Main Distribution Hub A",
+      "quantity": 100,
+      "minThreshold": 30,
+      "targetStock": 100,
+      "unitCost": 14.1,
+      "unitPrice": 32,
+      "supplier": {
+        "name": "Apex Semiconductor Direct",
+        "email": "orders@apexsemicon.com",
+        "phone": "+1 (555) 234-8901",
+        "leadTimeDays": 5
+      },
+      "lastRestocked": "2026-09-12",
+      "isEssential": true,
+      "status": "healthy",
+      "notes": "Calibrated with factory certificates."
+    },
+    {
+      "id": "item-8",
+      "sku": "SKU-LBL-2209",
+      "name": "Direct Thermal Barcode Shipping Labels (4x6 Rolls)",
+      "category": "Packaging",
+      "warehouse": "Depot Logistics B",
+      "quantity": 22,
+      "minThreshold": 45,
+      "targetStock": 180,
+      "unitCost": 7.5,
+      "unitPrice": 16,
+      "supplier": {
+        "name": "EcoPack Global Supply",
+        "email": "fulfillment@ecopackglobal.com",
+        "phone": "+1 (555) 872-3341",
+        "leadTimeDays": 3
+      },
+      "lastRestocked": "2026-08-25",
+      "isEssential": true,
+      "status": "critical",
+      "notes": "Warehouse printer consumables."
+    }
+  ],
+  "orders": [
+    {
+      "id": "po-1789223386057-wt53",
+      "poNumber": "PO-2026-1043",
+      "createdAt": "2026-09-12 14:29",
+      "status": "received",
+      "items": [
+        {
+          "itemId": "item-7",
+          "sku": "SKU-SNS-7104",
+          "name": "Industrial Temperature & Humidity Probe I2C",
+          "currentQty": 20,
+          "orderQty": 80,
+          "unitCost": 14.1,
+          "totalCost": 1128,
+          "supplierName": "Apex Semiconductor Direct",
+          "supplierEmail": "orders@apexsemicon.com"
+        }
+      ],
+      "totalAmount": 1128,
+      "supplierName": "Apex Semiconductor Direct",
+      "supplierEmail": "orders@apexsemicon.com",
+      "recipientEmail": "procurement@company.com",
+      "notes": "Automated threshold trigger",
+      "autoGenerated": true,
+      "zapierDispatchedAt": "2026-09-12 14:29",
+      "zapierStatus": "simulated",
+      "zapierHttpCode": 200
+    },
+    {
+      "id": "po-01",
+      "poNumber": "PO-2026-0839",
+      "createdAt": "2026-09-08 10:30",
+      "status": "dispatched_zapier",
+      "supplierName": "Apex Semiconductor Direct",
+      "supplierEmail": "orders@apexsemicon.com",
+      "recipientEmail": "procurement@company.com",
+      "items": [
+        {
+          "itemId": "item-1",
+          "sku": "SKU-ELC-8821",
+          "name": "STM32 Microcontroller Core Boards",
+          "currentQty": 14,
+          "orderQty": 106,
+          "unitCost": 18.5,
+          "totalCost": 1961,
+          "supplierName": "Apex Semiconductor Direct",
+          "supplierEmail": "orders@apexsemicon.com"
+        }
+      ],
+      "totalAmount": 1961,
+      "zapierDispatchedAt": "2026-09-14 20:19",
+      "zapierStatus": "simulated",
+      "zapierHttpCode": 200,
+      "notes": "Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.",
+      "autoGenerated": true
+    },
+    {
+      "id": "po-02",
+      "poNumber": "PO-2026-0824",
+      "createdAt": "2026-08-30 14:15",
+      "status": "received",
+      "supplierName": "OmniLink Connectivity",
+      "supplierEmail": "orders@omnilinkwires.com",
+      "recipientEmail": "procurement@company.com",
+      "items": [
+        {
+          "itemId": "item-6",
+          "sku": "SKU-CAB-5519",
+          "name": "Shielded Cat6A Patch Cables 3m (Braided Blue)",
+          "currentQty": 40,
+          "orderQty": 100,
+          "unitCost": 3.8,
+          "totalCost": 380,
+          "supplierName": "OmniLink Connectivity",
+          "supplierEmail": "orders@omnilinkwires.com"
+        }
+      ],
+      "totalAmount": 380,
+      "zapierDispatchedAt": "2026-08-30 14:16",
+      "zapierStatus": "simulated",
+      "zapierHttpCode": 200,
+      "notes": "Standard quarterly reorder batch. Stock arrived on 2026-09-02.",
+      "autoGenerated": false
+    }
+  ],
+  "settings": {
+    "webhookUrl": "",
+    "recipientEmail": "procurement@company.com",
+    "autoTriggerOnLowStock": true,
+    "autoTriggerOnlyEssential": true,
+    "sendEmailCopy": true,
+    "notificationPrefix": "[INVENTORY ALERT & PO REORDER]"
+  },
+  "logs": [
+    {
+      "id": "log_1789417149747_k8z9x",
+      "timestamp": "2026-09-14T20:19:09.747Z",
+      "poNumber": "PO-2026-0839",
+      "targetUrl": "Simulation (No Webhook URL configured)",
+      "recipientEmail": "shark.systems44@gmail.com",
+      "status": "simulated",
+      "payload": {
+        "event": "inventory.purchase_order.created",
+        "source": "Inventory Hub Automation",
+        "timestamp": "2026-09-14T20:19:09.747Z",
+        "recipientEmail": "shark.systems44@gmail.com",
+        "notificationTitle": "[INVENTORY ALERT & PO REORDER] Reorder Request: PO-2026-0839 for Apex Semiconductor Direct ($1,961)",
+        "emailSubject": "[INVENTORY ALERT & PO REORDER] Reorder Request: PO-2026-0839 for Apex Semiconductor Direct ($1,961)",
+        "emailHtmlBody": "\n    <!DOCTYPE html>\n    <html>\n      <body style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #f8fafc; margin: 0; padding: 24px; color: #1e293b;\">\n        <div style=\"max-width: 650px; margin: 0 auto; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);\">\n          <div style=\"background: #0f172a; padding: 24px 32px; color: #ffffff;\">\n            <div style=\"font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; margin-bottom: 4px;\">Inventory Hub • Purchase Order</div>\n            <h1 style=\"margin: 0; font-size: 24px; font-weight: 700; color: #ffffff;\">PO-2026-0839</h1>\n            <p style=\"margin: 6px 0 0 0; color: #cbd5e1; font-size: 14px;\">Supplier: <strong>Apex Semiconductor Direct</strong> (orders@apexsemicon.com)</p>\n          </div>\n\n          <div style=\"padding: 32px;\">\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 24px; background: #f1f5f9; padding: 16px; border-radius: 8px;\">\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Issue Date</span>\n                <strong style=\"font-size: 14px; color: #0f172a;\">2026-09-08 10:30</strong>\n              </div>\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Status</span>\n                <strong style=\"font-size: 14px; color: #0f172a; text-transform: capitalize;\">dispatched zapier</strong>\n              </div>\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Total Amount</span>\n                <strong style=\"font-size: 16px; color: #059669;\">$1,961 USD</strong>\n              </div>\n            </div>\n\n            <table style=\"width: 100%; border-collapse: collapse; margin-top: 16px; text-align: left;\">\n              <thead>\n                <tr style=\"background-color: #f8fafc; border-bottom: 2px solid #cbd5e1; font-size: 12px; text-transform: uppercase; color: #64748b;\">\n                  <th style=\"padding: 10px 12px;\">SKU</th>\n                  <th style=\"padding: 10px 12px;\">Item Name</th>\n                  <th style=\"padding: 10px 12px; text-align: center;\">Stock</th>\n                  <th style=\"padding: 10px 12px; text-align: center;\">Order Qty</th>\n                  <th style=\"padding: 10px 12px; text-align: right;\">Unit Cost</th>\n                  <th style=\"padding: 10px 12px; text-align: right;\">Line Total</th>\n                </tr>\n              </thead>\n              <tbody>\n                \n      <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n        <td style=\"padding: 10px 12px; font-weight: 500; font-family: monospace; font-size: 13px;\">SKU-ELC-8821</td>\n        <td style=\"padding: 10px 12px; font-size: 14px;\">STM32 Microcontroller Core Boards</td>\n        <td style=\"padding: 10px 12px; text-align: center; font-size: 14px;\">14</td>\n        <td style=\"padding: 10px 12px; text-align: center; font-size: 14px; font-weight: bold; color: #2563eb;\">106</td>\n        <td style=\"padding: 10px 12px; text-align: right; font-size: 14px;\">$18.50</td>\n        <td style=\"padding: 10px 12px; text-align: right; font-size: 14px; font-weight: 600;\">$1961.00</td>\n      </tr>\n    \n              </tbody>\n            </table>\n\n            <div style=\"margin-top: 24px; padding: 12px 16px; background-color: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px; font-size: 13px; color: #92400e;\"><strong>Notes:</strong> Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.</div>\n\n            <div style=\"margin-top: 32px; padding-top: 20px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;\">\n              Dispatched automatically by Inventory Hub Procurement System.\n            </div>\n          </div>\n        </div>\n      </body>\n    </html>\n  ",
+        "emailTextBody": "[PURCHASE ORDER] PO-2026-0839\nSupplier: Apex Semiconductor Direct (orders@apexsemicon.com)\nTotal Amount: $1,961 USD\nDate: 2026-09-08 10:30\nStatus: dispatched_zapier\n\nORDERED ITEMS:\n- [SKU-ELC-8821] STM32 Microcontroller Core Boards | Current: 14 -> Ordered: 106 units @ $18.50 = $1961.00\n\nNotes: Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.\n\nAutomated dispatch by Inventory Hub Procurement System",
+        "poNumber": "PO-2026-0839",
+        "supplier": {
+          "name": "Apex Semiconductor Direct",
+          "email": "orders@apexsemicon.com"
+        },
+        "items": [
+          {
+            "sku": "SKU-ELC-8821",
+            "name": "STM32 Microcontroller Core Boards",
+            "currentStock": 14,
+            "orderQuantity": 106,
+            "unitCost": 18.5,
+            "lineTotal": 1961
+          }
+        ],
+        "totalAmount": 1961,
+        "currency": "USD",
+        "notes": "Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.",
+        "autoGenerated": true
+      },
+      "httpCode": 200,
+      "responsePreview": "Simulation mode: payload validated successfully. Configure live Zapier Catch Hook URL in settings to dispatch live notifications."
+    },
+    {
+      "id": "log_1789417135512_dqidm",
+      "timestamp": "2026-09-14T20:18:55.512Z",
+      "poNumber": "PO-2026-0839",
+      "targetUrl": "Simulation (No Webhook URL configured)",
+      "recipientEmail": "procurement@company.com",
+      "status": "simulated",
+      "payload": {
+        "event": "inventory.purchase_order.created",
+        "source": "Inventory Hub Automation",
+        "timestamp": "2026-09-14T20:18:55.512Z",
+        "recipientEmail": "procurement@company.com",
+        "notificationTitle": "[INVENTORY ALERT & PO REORDER] Reorder Request: PO-2026-0839 for Apex Semiconductor Direct ($1,961)",
+        "emailSubject": "[INVENTORY ALERT & PO REORDER] Reorder Request: PO-2026-0839 for Apex Semiconductor Direct ($1,961)",
+        "emailHtmlBody": "\n    <!DOCTYPE html>\n    <html>\n      <body style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #f8fafc; margin: 0; padding: 24px; color: #1e293b;\">\n        <div style=\"max-width: 650px; margin: 0 auto; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);\">\n          <div style=\"background: #0f172a; padding: 24px 32px; color: #ffffff;\">\n            <div style=\"font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; margin-bottom: 4px;\">Inventory Hub • Purchase Order</div>\n            <h1 style=\"margin: 0; font-size: 24px; font-weight: 700; color: #ffffff;\">PO-2026-0839</h1>\n            <p style=\"margin: 6px 0 0 0; color: #cbd5e1; font-size: 14px;\">Supplier: <strong>Apex Semiconductor Direct</strong> (orders@apexsemicon.com)</p>\n          </div>\n\n          <div style=\"padding: 32px;\">\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 24px; background: #f1f5f9; padding: 16px; border-radius: 8px;\">\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Issue Date</span>\n                <strong style=\"font-size: 14px; color: #0f172a;\">2026-09-08 10:30</strong>\n              </div>\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Status</span>\n                <strong style=\"font-size: 14px; color: #0f172a; text-transform: capitalize;\">dispatched zapier</strong>\n              </div>\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Total Amount</span>\n                <strong style=\"font-size: 16px; color: #059669;\">$1,961 USD</strong>\n              </div>\n            </div>\n\n            <table style=\"width: 100%; border-collapse: collapse; margin-top: 16px; text-align: left;\">\n              <thead>\n                <tr style=\"background-color: #f8fafc; border-bottom: 2px solid #cbd5e1; font-size: 12px; text-transform: uppercase; color: #64748b;\">\n                  <th style=\"padding: 10px 12px;\">SKU</th>\n                  <th style=\"padding: 10px 12px;\">Item Name</th>\n                  <th style=\"padding: 10px 12px; text-align: center;\">Stock</th>\n                  <th style=\"padding: 10px 12px; text-align: center;\">Order Qty</th>\n                  <th style=\"padding: 10px 12px; text-align: right;\">Unit Cost</th>\n                  <th style=\"padding: 10px 12px; text-align: right;\">Line Total</th>\n                </tr>\n              </thead>\n              <tbody>\n                \n      <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n        <td style=\"padding: 10px 12px; font-weight: 500; font-family: monospace; font-size: 13px;\">SKU-ELC-8821</td>\n        <td style=\"padding: 10px 12px; font-size: 14px;\">STM32 Microcontroller Core Boards</td>\n        <td style=\"padding: 10px 12px; text-align: center; font-size: 14px;\">14</td>\n        <td style=\"padding: 10px 12px; text-align: center; font-size: 14px; font-weight: bold; color: #2563eb;\">106</td>\n        <td style=\"padding: 10px 12px; text-align: right; font-size: 14px;\">$18.50</td>\n        <td style=\"padding: 10px 12px; text-align: right; font-size: 14px; font-weight: 600;\">$1961.00</td>\n      </tr>\n    \n              </tbody>\n            </table>\n\n            <div style=\"margin-top: 24px; padding: 12px 16px; background-color: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px; font-size: 13px; color: #92400e;\"><strong>Notes:</strong> Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.</div>\n\n            <div style=\"margin-top: 32px; padding-top: 20px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;\">\n              Dispatched automatically by Inventory Hub Procurement System.\n            </div>\n          </div>\n        </div>\n      </body>\n    </html>\n  ",
+        "emailTextBody": "[PURCHASE ORDER] PO-2026-0839\nSupplier: Apex Semiconductor Direct (orders@apexsemicon.com)\nTotal Amount: $1,961 USD\nDate: 2026-09-08 10:30\nStatus: dispatched_zapier\n\nORDERED ITEMS:\n- [SKU-ELC-8821] STM32 Microcontroller Core Boards | Current: 14 -> Ordered: 106 units @ $18.50 = $1961.00\n\nNotes: Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.\n\nAutomated dispatch by Inventory Hub Procurement System",
+        "poNumber": "PO-2026-0839",
+        "supplier": {
+          "name": "Apex Semiconductor Direct",
+          "email": "orders@apexsemicon.com"
+        },
+        "items": [
+          {
+            "sku": "SKU-ELC-8821",
+            "name": "STM32 Microcontroller Core Boards",
+            "currentStock": 14,
+            "orderQuantity": 106,
+            "unitCost": 18.5,
+            "lineTotal": 1961
+          }
+        ],
+        "totalAmount": 1961,
+        "currency": "USD",
+        "notes": "Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.",
+        "autoGenerated": true
+      },
+      "httpCode": 200,
+      "responsePreview": "Simulation mode: payload validated successfully. Configure live Zapier Catch Hook URL in settings to dispatch live notifications."
+    },
+    {
+      "id": "log_email_1789417109262",
+      "timestamp": "2026-09-14T20:18:29.262Z",
+      "poNumber": "TEST-NOTIFICATION",
+      "targetUrl": "https://api.resend.com/emails",
+      "recipientEmail": "sh***4@gmail.com",
+      "status": "success",
+      "httpCode": 200,
+      "responsePreview": "Live email successfully delivered to shark.systems44@gmail.com via Resend (ID: b114764e-8570-41b6-8aa8-3ac0fdd58f1d).",
+      "payload": {
+        "test": true
+      }
+    },
+    {
+      "id": "log_1789417094688_mb9sp",
+      "timestamp": "2026-09-14T20:18:14.688Z",
+      "poNumber": "PO-2026-0839",
+      "targetUrl": "Simulation (No Webhook URL configured)",
+      "recipientEmail": "procurement@company.com",
+      "status": "simulated",
+      "payload": {
+        "event": "inventory.purchase_order.created",
+        "source": "Inventory Hub Automation",
+        "timestamp": "2026-09-14T20:18:14.688Z",
+        "recipientEmail": "procurement@company.com",
+        "notificationTitle": "[INVENTORY ALERT & PO REORDER] Reorder Request: PO-2026-0839 for Apex Semiconductor Direct ($1,961)",
+        "emailSubject": "[INVENTORY ALERT & PO REORDER] Reorder Request: PO-2026-0839 for Apex Semiconductor Direct ($1,961)",
+        "emailHtmlBody": "\n    <!DOCTYPE html>\n    <html>\n      <body style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #f8fafc; margin: 0; padding: 24px; color: #1e293b;\">\n        <div style=\"max-width: 650px; margin: 0 auto; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);\">\n          <div style=\"background: #0f172a; padding: 24px 32px; color: #ffffff;\">\n            <div style=\"font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; margin-bottom: 4px;\">Inventory Hub • Purchase Order</div>\n            <h1 style=\"margin: 0; font-size: 24px; font-weight: 700; color: #ffffff;\">PO-2026-0839</h1>\n            <p style=\"margin: 6px 0 0 0; color: #cbd5e1; font-size: 14px;\">Supplier: <strong>Apex Semiconductor Direct</strong> (orders@apexsemicon.com)</p>\n          </div>\n\n          <div style=\"padding: 32px;\">\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 24px; background: #f1f5f9; padding: 16px; border-radius: 8px;\">\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Issue Date</span>\n                <strong style=\"font-size: 14px; color: #0f172a;\">2026-09-08 10:30</strong>\n              </div>\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Status</span>\n                <strong style=\"font-size: 14px; color: #0f172a; text-transform: capitalize;\">dispatched zapier</strong>\n              </div>\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Total Amount</span>\n                <strong style=\"font-size: 16px; color: #059669;\">$1,961 USD</strong>\n              </div>\n            </div>\n\n            <table style=\"width: 100%; border-collapse: collapse; margin-top: 16px; text-align: left;\">\n              <thead>\n                <tr style=\"background-color: #f8fafc; border-bottom: 2px solid #cbd5e1; font-size: 12px; text-transform: uppercase; color: #64748b;\">\n                  <th style=\"padding: 10px 12px;\">SKU</th>\n                  <th style=\"padding: 10px 12px;\">Item Name</th>\n                  <th style=\"padding: 10px 12px; text-align: center;\">Stock</th>\n                  <th style=\"padding: 10px 12px; text-align: center;\">Order Qty</th>\n                  <th style=\"padding: 10px 12px; text-align: right;\">Unit Cost</th>\n                  <th style=\"padding: 10px 12px; text-align: right;\">Line Total</th>\n                </tr>\n              </thead>\n              <tbody>\n                \n      <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n        <td style=\"padding: 10px 12px; font-weight: 500; font-family: monospace; font-size: 13px;\">SKU-ELC-8821</td>\n        <td style=\"padding: 10px 12px; font-size: 14px;\">STM32 Microcontroller Core Boards</td>\n        <td style=\"padding: 10px 12px; text-align: center; font-size: 14px;\">14</td>\n        <td style=\"padding: 10px 12px; text-align: center; font-size: 14px; font-weight: bold; color: #2563eb;\">106</td>\n        <td style=\"padding: 10px 12px; text-align: right; font-size: 14px;\">$18.50</td>\n        <td style=\"padding: 10px 12px; text-align: right; font-size: 14px; font-weight: 600;\">$1961.00</td>\n      </tr>\n    \n              </tbody>\n            </table>\n\n            <div style=\"margin-top: 24px; padding: 12px 16px; background-color: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px; font-size: 13px; color: #92400e;\"><strong>Notes:</strong> Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.</div>\n\n            <div style=\"margin-top: 32px; padding-top: 20px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;\">\n              Dispatched automatically by Inventory Hub Procurement System.\n            </div>\n          </div>\n        </div>\n      </body>\n    </html>\n  ",
+        "emailTextBody": "[PURCHASE ORDER] PO-2026-0839\nSupplier: Apex Semiconductor Direct (orders@apexsemicon.com)\nTotal Amount: $1,961 USD\nDate: 2026-09-08 10:30\nStatus: dispatched_zapier\n\nORDERED ITEMS:\n- [SKU-ELC-8821] STM32 Microcontroller Core Boards | Current: 14 -> Ordered: 106 units @ $18.50 = $1961.00\n\nNotes: Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.\n\nAutomated dispatch by Inventory Hub Procurement System",
+        "poNumber": "PO-2026-0839",
+        "supplier": {
+          "name": "Apex Semiconductor Direct",
+          "email": "orders@apexsemicon.com"
+        },
+        "items": [
+          {
+            "sku": "SKU-ELC-8821",
+            "name": "STM32 Microcontroller Core Boards",
+            "currentStock": 14,
+            "orderQuantity": 106,
+            "unitCost": 18.5,
+            "lineTotal": 1961
+          }
+        ],
+        "totalAmount": 1961,
+        "currency": "USD",
+        "notes": "Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.",
+        "autoGenerated": true
+      },
+      "httpCode": 200,
+      "responsePreview": "Simulation mode: payload validated successfully. Configure live Zapier Catch Hook URL in settings to dispatch live notifications."
+    },
+    {
+      "id": "log_1789417068707_1bkoo",
+      "timestamp": "2026-09-14T20:17:48.707Z",
+      "poNumber": "PO-2026-0839",
+      "targetUrl": "Simulation (No Webhook URL configured)",
+      "recipientEmail": "procurement@company.com",
+      "status": "simulated",
+      "payload": {
+        "event": "inventory.purchase_order.created",
+        "source": "Inventory Hub Automation",
+        "timestamp": "2026-09-14T20:17:48.707Z",
+        "recipientEmail": "procurement@company.com",
+        "notificationTitle": "[INVENTORY ALERT & PO REORDER] Reorder Request: PO-2026-0839 for Apex Semiconductor Direct ($1,961)",
+        "emailSubject": "[INVENTORY ALERT & PO REORDER] Reorder Request: PO-2026-0839 for Apex Semiconductor Direct ($1,961)",
+        "emailHtmlBody": "\n    <!DOCTYPE html>\n    <html>\n      <body style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #f8fafc; margin: 0; padding: 24px; color: #1e293b;\">\n        <div style=\"max-width: 650px; margin: 0 auto; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);\">\n          <div style=\"background: #0f172a; padding: 24px 32px; color: #ffffff;\">\n            <div style=\"font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; margin-bottom: 4px;\">Inventory Hub • Purchase Order</div>\n            <h1 style=\"margin: 0; font-size: 24px; font-weight: 700; color: #ffffff;\">PO-2026-0839</h1>\n            <p style=\"margin: 6px 0 0 0; color: #cbd5e1; font-size: 14px;\">Supplier: <strong>Apex Semiconductor Direct</strong> (orders@apexsemicon.com)</p>\n          </div>\n\n          <div style=\"padding: 32px;\">\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 24px; background: #f1f5f9; padding: 16px; border-radius: 8px;\">\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Issue Date</span>\n                <strong style=\"font-size: 14px; color: #0f172a;\">2026-09-08 10:30</strong>\n              </div>\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Status</span>\n                <strong style=\"font-size: 14px; color: #0f172a; text-transform: capitalize;\">dispatched zapier</strong>\n              </div>\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Total Amount</span>\n                <strong style=\"font-size: 16px; color: #059669;\">$1,961 USD</strong>\n              </div>\n            </div>\n\n            <table style=\"width: 100%; border-collapse: collapse; margin-top: 16px; text-align: left;\">\n              <thead>\n                <tr style=\"background-color: #f8fafc; border-bottom: 2px solid #cbd5e1; font-size: 12px; text-transform: uppercase; color: #64748b;\">\n                  <th style=\"padding: 10px 12px;\">SKU</th>\n                  <th style=\"padding: 10px 12px;\">Item Name</th>\n                  <th style=\"padding: 10px 12px; text-align: center;\">Stock</th>\n                  <th style=\"padding: 10px 12px; text-align: center;\">Order Qty</th>\n                  <th style=\"padding: 10px 12px; text-align: right;\">Unit Cost</th>\n                  <th style=\"padding: 10px 12px; text-align: right;\">Line Total</th>\n                </tr>\n              </thead>\n              <tbody>\n                \n      <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n        <td style=\"padding: 10px 12px; font-weight: 500; font-family: monospace; font-size: 13px;\">SKU-ELC-8821</td>\n        <td style=\"padding: 10px 12px; font-size: 14px;\">STM32 Microcontroller Core Boards</td>\n        <td style=\"padding: 10px 12px; text-align: center; font-size: 14px;\">14</td>\n        <td style=\"padding: 10px 12px; text-align: center; font-size: 14px; font-weight: bold; color: #2563eb;\">106</td>\n        <td style=\"padding: 10px 12px; text-align: right; font-size: 14px;\">$18.50</td>\n        <td style=\"padding: 10px 12px; text-align: right; font-size: 14px; font-weight: 600;\">$1961.00</td>\n      </tr>\n    \n              </tbody>\n            </table>\n\n            <div style=\"margin-top: 24px; padding: 12px 16px; background-color: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px; font-size: 13px; color: #92400e;\"><strong>Notes:</strong> Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.</div>\n\n            <div style=\"margin-top: 32px; padding-top: 20px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;\">\n              Dispatched automatically by Inventory Hub Procurement System.\n            </div>\n          </div>\n        </div>\n      </body>\n    </html>\n  ",
+        "emailTextBody": "[PURCHASE ORDER] PO-2026-0839\nSupplier: Apex Semiconductor Direct (orders@apexsemicon.com)\nTotal Amount: $1,961 USD\nDate: 2026-09-08 10:30\nStatus: dispatched_zapier\n\nORDERED ITEMS:\n- [SKU-ELC-8821] STM32 Microcontroller Core Boards | Current: 14 -> Ordered: 106 units @ $18.50 = $1961.00\n\nNotes: Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.\n\nAutomated dispatch by Inventory Hub Procurement System",
+        "poNumber": "PO-2026-0839",
+        "supplier": {
+          "name": "Apex Semiconductor Direct",
+          "email": "orders@apexsemicon.com"
+        },
+        "items": [
+          {
+            "sku": "SKU-ELC-8821",
+            "name": "STM32 Microcontroller Core Boards",
+            "currentStock": 14,
+            "orderQuantity": 106,
+            "unitCost": 18.5,
+            "lineTotal": 1961
+          }
+        ],
+        "totalAmount": 1961,
+        "currency": "USD",
+        "notes": "Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.",
+        "autoGenerated": true
+      },
+      "httpCode": 200,
+      "responsePreview": "Simulation mode: payload validated successfully. Configure live Zapier Catch Hook URL in settings to dispatch live notifications."
+    },
+    {
+      "id": "log_1789417049578_82qel",
+      "timestamp": "2026-09-14T20:17:29.578Z",
+      "poNumber": "PO-2026-0839",
+      "targetUrl": "Simulation (No Webhook URL configured)",
+      "recipientEmail": "procurement@company.com",
+      "status": "simulated",
+      "payload": {
+        "event": "inventory.purchase_order.created",
+        "source": "Inventory Hub Automation",
+        "timestamp": "2026-09-14T20:17:29.578Z",
+        "recipientEmail": "procurement@company.com",
+        "notificationTitle": "[INVENTORY ALERT & PO REORDER] Reorder Request: PO-2026-0839 for Apex Semiconductor Direct ($1,961)",
+        "emailSubject": "[INVENTORY ALERT & PO REORDER] Reorder Request: PO-2026-0839 for Apex Semiconductor Direct ($1,961)",
+        "emailHtmlBody": "\n    <!DOCTYPE html>\n    <html>\n      <body style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #f8fafc; margin: 0; padding: 24px; color: #1e293b;\">\n        <div style=\"max-width: 650px; margin: 0 auto; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);\">\n          <div style=\"background: #0f172a; padding: 24px 32px; color: #ffffff;\">\n            <div style=\"font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; margin-bottom: 4px;\">Inventory Hub • Purchase Order</div>\n            <h1 style=\"margin: 0; font-size: 24px; font-weight: 700; color: #ffffff;\">PO-2026-0839</h1>\n            <p style=\"margin: 6px 0 0 0; color: #cbd5e1; font-size: 14px;\">Supplier: <strong>Apex Semiconductor Direct</strong> (orders@apexsemicon.com)</p>\n          </div>\n\n          <div style=\"padding: 32px;\">\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 24px; background: #f1f5f9; padding: 16px; border-radius: 8px;\">\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Issue Date</span>\n                <strong style=\"font-size: 14px; color: #0f172a;\">2026-09-08 10:30</strong>\n              </div>\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Status</span>\n                <strong style=\"font-size: 14px; color: #0f172a; text-transform: capitalize;\">dispatched zapier</strong>\n              </div>\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Total Amount</span>\n                <strong style=\"font-size: 16px; color: #059669;\">$1,961 USD</strong>\n              </div>\n            </div>\n\n            <table style=\"width: 100%; border-collapse: collapse; margin-top: 16px; text-align: left;\">\n              <thead>\n                <tr style=\"background-color: #f8fafc; border-bottom: 2px solid #cbd5e1; font-size: 12px; text-transform: uppercase; color: #64748b;\">\n                  <th style=\"padding: 10px 12px;\">SKU</th>\n                  <th style=\"padding: 10px 12px;\">Item Name</th>\n                  <th style=\"padding: 10px 12px; text-align: center;\">Stock</th>\n                  <th style=\"padding: 10px 12px; text-align: center;\">Order Qty</th>\n                  <th style=\"padding: 10px 12px; text-align: right;\">Unit Cost</th>\n                  <th style=\"padding: 10px 12px; text-align: right;\">Line Total</th>\n                </tr>\n              </thead>\n              <tbody>\n                \n      <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n        <td style=\"padding: 10px 12px; font-weight: 500; font-family: monospace; font-size: 13px;\">SKU-ELC-8821</td>\n        <td style=\"padding: 10px 12px; font-size: 14px;\">STM32 Microcontroller Core Boards</td>\n        <td style=\"padding: 10px 12px; text-align: center; font-size: 14px;\">14</td>\n        <td style=\"padding: 10px 12px; text-align: center; font-size: 14px; font-weight: bold; color: #2563eb;\">106</td>\n        <td style=\"padding: 10px 12px; text-align: right; font-size: 14px;\">$18.50</td>\n        <td style=\"padding: 10px 12px; text-align: right; font-size: 14px; font-weight: 600;\">$1961.00</td>\n      </tr>\n    \n              </tbody>\n            </table>\n\n            <div style=\"margin-top: 24px; padding: 12px 16px; background-color: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px; font-size: 13px; color: #92400e;\"><strong>Notes:</strong> Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.</div>\n\n            <div style=\"margin-top: 32px; padding-top: 20px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;\">\n              Dispatched automatically by Inventory Hub Procurement System.\n            </div>\n          </div>\n        </div>\n      </body>\n    </html>\n  ",
+        "emailTextBody": "[PURCHASE ORDER] PO-2026-0839\nSupplier: Apex Semiconductor Direct (orders@apexsemicon.com)\nTotal Amount: $1,961 USD\nDate: 2026-09-08 10:30\nStatus: dispatched_zapier\n\nORDERED ITEMS:\n- [SKU-ELC-8821] STM32 Microcontroller Core Boards | Current: 14 -> Ordered: 106 units @ $18.50 = $1961.00\n\nNotes: Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.\n\nAutomated dispatch by Inventory Hub Procurement System",
+        "poNumber": "PO-2026-0839",
+        "supplier": {
+          "name": "Apex Semiconductor Direct",
+          "email": "orders@apexsemicon.com"
+        },
+        "items": [
+          {
+            "sku": "SKU-ELC-8821",
+            "name": "STM32 Microcontroller Core Boards",
+            "currentStock": 14,
+            "orderQuantity": 106,
+            "unitCost": 18.5,
+            "lineTotal": 1961
+          }
+        ],
+        "totalAmount": 1961,
+        "currency": "USD",
+        "notes": "Automated reorder triggered upon falling below threshold (14 / 35). Sent to Zapier webhook for email dispatch.",
+        "autoGenerated": true
+      },
+      "httpCode": 200,
+      "responsePreview": "Simulation mode: payload validated successfully. Configure live Zapier Catch Hook URL in settings to dispatch live notifications."
+    },
+    {
+      "id": "log_email_1789417025482",
+      "timestamp": "2026-09-14T20:17:05.482Z",
+      "poNumber": "TEST-NOTIFICATION",
+      "targetUrl": "https://api.resend.com/emails",
+      "recipientEmail": "sh***4@gmail.com",
+      "status": "success",
+      "httpCode": 200,
+      "responsePreview": "Live email successfully delivered to shark.systems44@gmail.com via Resend (ID: 204ab028-0c06-4b65-82bd-831dcd86c552).",
+      "payload": {
+        "test": true
+      }
+    },
+    {
+      "id": "log_1789384478584_2389q",
+      "timestamp": "2026-09-14T11:14:38.584Z",
+      "poNumber": "PO-ZAP-SAMPLE",
+      "targetUrl": "Simulation (No Webhook URL configured)",
+      "recipientEmail": "neurosync44@gmail.com",
+      "status": "simulated",
+      "payload": {
+        "event": "inventory.purchase_order.created",
+        "source": "Inventory Hub Zapier Webhook Dispatcher",
+        "timestamp": "2026-09-14T11:14:38.584Z",
+        "recipientEmail": "neurosync44@gmail.com",
+        "notificationTitle": "[INVENTORY ALERT & PO REORDER] Reorder Request: PO-ZAP-SAMPLE for Apex Semiconductor Direct ($1,250.00)",
+        "emailSubject": "[INVENTORY ALERT & PO REORDER] Reorder Request: PO-ZAP-SAMPLE for Apex Semiconductor Direct ($1,250.00)",
+        "emailHtmlBody": "\n    <!DOCTYPE html>\n    <html>\n      <body style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #f8fafc; margin: 0; padding: 24px; color: #1e293b;\">\n        <div style=\"max-width: 650px; margin: 0 auto; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);\">\n          <div style=\"background: #0f172a; padding: 24px 32px; color: #ffffff;\">\n            <div style=\"font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; margin-bottom: 4px;\">Inventory Hub • Purchase Order</div>\n            <h1 style=\"margin: 0; font-size: 24px; font-weight: 700; color: #ffffff;\">PO-ZAP-SAMPLE</h1>\n            <p style=\"margin: 6px 0 0 0; color: #cbd5e1; font-size: 14px;\">Supplier: <strong>Apex Semiconductor Direct</strong> (orders@apexsemiconductor.com)</p>\n          </div>\n\n          <div style=\"padding: 32px;\">\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 24px; background: #f1f5f9; padding: 16px; border-radius: 8px;\">\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Issue Date</span>\n                <strong style=\"font-size: 14px; color: #0f172a;\">2026-09-14 11:14</strong>\n              </div>\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Status</span>\n                <strong style=\"font-size: 14px; color: #0f172a; text-transform: capitalize;\">dispatched zapier</strong>\n              </div>\n              <div>\n                <span style=\"font-size: 11px; color: #64748b; text-transform: uppercase; display: block;\">Total Amount</span>\n                <strong style=\"font-size: 16px; color: #059669;\">$1,250 USD</strong>\n              </div>\n            </div>\n\n            <table style=\"width: 100%; border-collapse: collapse; margin-top: 16px; text-align: left;\">\n              <thead>\n                <tr style=\"background-color: #f8fafc; border-bottom: 2px solid #cbd5e1; font-size: 12px; text-transform: uppercase; color: #64748b;\">\n                  <th style=\"padding: 10px 12px;\">SKU</th>\n                  <th style=\"padding: 10px 12px;\">Item Name</th>\n                  <th style=\"padding: 10px 12px; text-align: center;\">Stock</th>\n                  <th style=\"padding: 10px 12px; text-align: center;\">Order Qty</th>\n                  <th style=\"padding: 10px 12px; text-align: right;\">Unit Cost</th>\n                  <th style=\"padding: 10px 12px; text-align: right;\">Line Total</th>\n                </tr>\n              </thead>\n              <tbody>\n                \n      <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n        <td style=\"padding: 10px 12px; font-weight: 500; font-family: monospace; font-size: 13px;\">STM32-CORE-V2</td>\n        <td style=\"padding: 10px 12px; font-size: 14px;\">STM32 Microcontroller Core Boards</td>\n        <td style=\"padding: 10px 12px; text-align: center; font-size: 14px;\">4</td>\n        <td style=\"padding: 10px 12px; text-align: center; font-size: 14px; font-weight: bold; color: #2563eb;\">25</td>\n        <td style=\"padding: 10px 12px; text-align: right; font-size: 14px;\">$35.00</td>\n        <td style=\"padding: 10px 12px; text-align: right; font-size: 14px; font-weight: 600;\">$875.00</td>\n      </tr>\n    \n      <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n        <td style=\"padding: 10px 12px; font-weight: 500; font-family: monospace; font-size: 13px;\">LIPO-2500-3V7</td>\n        <td style=\"padding: 10px 12px; font-size: 14px;\">High-Drain 3.7V Lithium-Polymer Cells</td>\n        <td style=\"padding: 10px 12px; text-align: center; font-size: 14px;\">8</td>\n        <td style=\"padding: 10px 12px; text-align: center; font-size: 14px; font-weight: bold; color: #2563eb;\">25</td>\n        <td style=\"padding: 10px 12px; text-align: right; font-size: 14px;\">$15.00</td>\n        <td style=\"padding: 10px 12px; text-align: right; font-size: 14px; font-weight: 600;\">$375.00</td>\n      </tr>\n    \n              </tbody>\n            </table>\n\n            <div style=\"margin-top: 24px; padding: 12px 16px; background-color: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px; font-size: 13px; color: #92400e;\"><strong>Notes:</strong> Automated replenishment order triggered via Zapier Webhook integration.</div>\n\n            <div style=\"margin-top: 32px; padding-top: 20px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;\">\n              Dispatched automatically by Inventory Hub Procurement System.\n            </div>\n          </div>\n        </div>\n      </body>\n    </html>\n  ",
+        "emailTextBody": "[PURCHASE ORDER] PO-ZAP-SAMPLE\nSupplier: Apex Semiconductor Direct (orders@apexsemiconductor.com)\nTotal Amount: $1,250 USD\nDate: 2026-09-14 11:14\nStatus: dispatched_zapier\n\nORDERED ITEMS:\n- [STM32-CORE-V2] STM32 Microcontroller Core Boards | Current: 4 -> Ordered: 25 units @ $35.00 = $875.00\n- [LIPO-2500-3V7] High-Drain 3.7V Lithium-Polymer Cells | Current: 8 -> Ordered: 25 units @ $15.00 = $375.00\n\nNotes: Automated replenishment order triggered via Zapier Webhook integration.\n\nAutomated dispatch by Inventory Hub Procurement System",
+        "poNumber": "PO-ZAP-SAMPLE",
+        "supplier": {
+          "name": "Apex Semiconductor Direct",
+          "email": "orders@apexsemiconductor.com"
+        },
+        "items": [
+          {
+            "sku": "STM32-CORE-V2",
+            "name": "STM32 Microcontroller Core Boards",
+            "currentStock": 4,
+            "orderQuantity": 25,
+            "unitCost": 35,
+            "lineTotal": 875
+          },
+          {
+            "sku": "LIPO-2500-3V7",
+            "name": "High-Drain 3.7V Lithium-Polymer Cells",
+            "currentStock": 8,
+            "orderQuantity": 25,
+            "unitCost": 15,
+            "lineTotal": 375
+          }
+        ],
+        "totalAmount": 1250,
+        "currency": "USD",
+        "notes": "Automated replenishment order triggered via Zapier Webhook integration.",
+        "autoGenerated": true
+      },
+      "httpCode": 200,
+      "responsePreview": "Simulation mode: payload validated successfully. Configure live Zapier Catch Hook URL in settings to dispatch live notifications."
+    },
+    {
+      "id": "log_email_1789339334238",
+      "timestamp": "2026-09-13T22:42:14.238Z",
+      "poNumber": "TEST-NOTIFICATION",
+      "targetUrl": "Simulated Email Dispatch",
+      "recipientEmail": "test@example.com",
+      "status": "success",
+      "httpCode": 200,
+      "responsePreview": "Simulation Mode: RESEND_API_KEY is not configured yet. Configure your RESEND_API_KEY in Settings to send live emails.",
+      "payload": {
+        "test": true,
+        "recipient": "test@example.com"
+      }
+    },
+    {
+      "id": "log_1789223386057_x4hvp",
+      "timestamp": "2026-09-12T14:29:46.057Z",
+      "poNumber": "PO-2026-1043",
+      "targetUrl": "Simulation (No Webhook URL configured)",
+      "recipientEmail": "procurement@company.com",
+      "status": "simulated",
+      "payload": {
+        "event": "inventory.purchase_order.auto_triggered",
+        "source": "Inventory Hub Automated Threshold Rule",
+        "timestamp": "2026-09-12T14:29:46.057Z",
+        "recipientEmail": "procurement@company.com",
+        "notificationTitle": "[INVENTORY ALERT & PO REORDER] Stockout Warning: PO-2026-1043",
+        "poNumber": "PO-2026-1043",
+        "supplier": {
+          "name": "Apex Semiconductor Direct",
+          "email": "orders@apexsemicon.com"
+        },
+        "items": [
+          {
+            "sku": "SKU-SNS-7104",
+            "name": "Industrial Temperature & Humidity Probe I2C",
+            "currentStock": 20,
+            "orderQuantity": 80,
+            "unitCost": 14.1,
+            "lineTotal": 1128
+          }
+        ],
+        "totalAmount": 1128,
+        "notes": "Automated threshold trigger"
+      },
+      "httpCode": 200,
+      "responsePreview": "Simulation mode: payload validated successfully. Configure live Zapier Catch Hook URL in settings to dispatch live notifications."
+    },
+    {
+      "id": "log_1789223374701_1e13o",
+      "timestamp": "2026-09-12T14:29:34.701Z",
+      "poNumber": "PO-UNKNOWN",
+      "targetUrl": "Simulation (No Webhook URL configured)",
+      "recipientEmail": "procurement@company.com",
+      "status": "simulated",
+      "payload": {
+        "event": "inventory.webhook.test",
+        "source": "Inventory Hub System Diagnostic",
+        "timestamp": "2026-09-12T14:29:34.701Z",
+        "recipientEmail": "procurement@company.com",
+        "message": "Connectivity diagnostic verification payload from Inventory Hub.",
+        "testPO": "PO-TEST-001"
+      },
+      "httpCode": 200,
+      "responsePreview": "Simulation mode: payload validated successfully. Configure live Zapier Catch Hook URL in settings to dispatch live notifications."
+    }
+  ],
+  "poSequence": 1043
+}

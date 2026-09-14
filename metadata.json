@@ -1,0 +1,6 @@
+{
+  "name": "Inventory Hub",
+  "description": "Real-time stock tracking, low-inventory alerts, automated purchase order generation with Zapier webhook notification, and quarterly sales trend exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
